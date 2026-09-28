@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+conversations.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases / vector stores
+.chroma/
+
+# Logs
+*.log
